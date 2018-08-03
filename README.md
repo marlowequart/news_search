@@ -1,3 +1,3 @@
-Search for articles related to give inputs
+Search for articles related to given inputs
 
 
