@@ -1,0 +1,37 @@
+the project subfolder inside of the project folder (same name as project folder) is the entry point for the website
+
+
+Project subfolder:
+settings.py contains all of the website settings.
+This is where we register any applications we create, location of static files, etc
+
+urls.py defines the site url-to-view mappings.
+This could countain all of the url mapping code but it is more common to delegate
+some of the mapping to applications.
+
+wsgi.py used to help django app communicate with website
+can treat as boilerplate
+
+
+
+Project folder:
+manage.py is used to create apps, work with databases and start the development webserver.
+
+to create new app:
+go to the folder with manage.py:
+python manage.py startapp appname
+
+
+To test run the program:
+navigate to the folder
+django-admin runserver --pythonpath=. --settings=tinyapp
+
+
+The following apps are included here:
+
+accounts:
+this app is the admin application for a site area that can be used to update records.
+
+core:
+
+services:

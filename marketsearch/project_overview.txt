@@ -1,0 +1,13 @@
+The applications in woid are:
+
+accounts:
+Doesnt seem necessary but is meant to have login accounts
+
+
+core:
+this interacts somehow with the status info section.
+The only file edited here is the views.py where a status request function is created.
+
+
+services:
+This is where the webcrawler lives

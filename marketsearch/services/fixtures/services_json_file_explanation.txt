@@ -1,0 +1,1 @@
+this file contains the links to the websites that want to be crawled.

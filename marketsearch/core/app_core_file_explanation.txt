@@ -1,0 +1,5 @@
+The core application is intended to redirect to the status page?
+
+
+The only file edited here is views.py
+it seems like this app renders the status info page
